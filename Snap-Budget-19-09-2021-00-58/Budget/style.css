@@ -1,0 +1,306 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+
+}
+
+.header {
+  width: auto;
+  margin: 0px auto 0px;
+  color: white;
+  background: #a31414;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+/*  border-radius: 10px 10px 0px 0px;
+*/
+  padding: 20px;
+}
+.header-login {
+  width: 30%;
+  margin: 0px auto 0px;
+  color: white;
+  background: #a31414;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+.div.relative{
+ position: relative;
+ width: 400px;
+ height: 200px;
+ border: 3px solid #73AD21;
+}
+ .account-corner{
+   position: absolute;
+   font-size: 130%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   right: 10px;
+   top: 20px;
+}
+ .profile-corner{
+   /* original color a31414 */
+   background: #a31414;
+   margin-right: 1px;
+   color: black;
+   text-align: center;
+   font-size: 120%;
+   text-decoration: none;
+   color: #000000;
+   border: 0px;
+   width: 125px;
+   position: absolute;
+   padding-top: 10px;
+   right: 0px;
+
+}
+.profile-corner:hover{
+  background: #c71818;
+  font-size: 120%;
+  text-decoration: none;
+  color: #000000;
+  border: 0px;
+  position: absolute;
+  padding-top: 10px;
+  right: 0px;
+
+}
+.logout-corner{
+  /* original color a31414 */
+  background: #a31414;
+  color: black;
+  text-align: center;
+  font-size: 120%;
+  text-decoration: none;
+  color: #000000;
+  border: 0px;
+  width: 125px;
+  position: absolute;
+  padding-top: 10px;
+  right: 130px;
+
+}
+.logout-corner:hover{
+  background: #c71818;
+  font-size: 120%;
+  text-decoration: none;
+  color: #000000;
+  border: 0px;
+  position: absolute;
+  padding-top: 10px;
+
+}
+
+.Welcome{
+  font-size: 200%;
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group-top {
+  margin-top: 3%;
+/*  padding-bottom: 20px; */
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font: inherit;
+}
+.btn {
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+  background: #a31414;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0px auto;
+}
+.btn:hover{
+background: #c71818;
+border-radius: 10px;
+}
+.btn-login {
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+  background: #a31414;
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  margin: 0px auto;
+}
+.btn-home {
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+  background: #a31414;
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  margin: 0px auto;
+}
+.btn-login:hover{
+background: #c71818;
+border-radius: 5px;
+}
+.btn-home:hover{
+background: #c71818;
+border-radius: 5px;
+}
+.current{
+border-radius: 10px;
+background: #871212;
+}
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+.Pblack{
+  color: black;
+}
+.home-image{
+  position: absolute;
+  left: 200px;
+  width: 300px;
+  margin: 0px auto;
+}
+
+/* .home-text{
+
+  color: black;
+  text-align: center;
+  font-size: 120%;
+  text-decoration: none;
+  color: #000000;
+  border: 0px;
+  width: 125px;
+  position: absolute;
+  padding-top: 10px;
+  right: 130px;
+
+} */
+div.home-events{
+  position: relative;
+  top: 5px;
+  left: 0px;
+  width: 90%;
+  margin-left: 0%;
+ height: auto;
+ border-radius: 10px;
+ background: #dcddde;
+}
+div.cs-events{
+  position: relative;
+  top: 5px;
+  left: 0px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: auto;
+ height: auto;
+ border-radius: 10px;
+ background: #dcddde;
+}
+p.cs-events{
+  position: relative;
+  text-align: center;
+  /* top: 5px;
+  left: 0px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: auto;
+ height: auto; */
+ border-radius: 10px;
+ font-size: 200%;
+ /* background: #dcddde; */
+}
+span.clear {
+  clear: left;
+  display: block;
+}
+textarea {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  text-align: left;
+  font: inherit;
+
+}
+
+/* img.left{
+  position: relative;
+  left: 10px;
+  top: 80px;
+  margin-left: 0%;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+} */
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #fff;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

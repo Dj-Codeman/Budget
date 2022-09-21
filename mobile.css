@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #F8F8FF;
+}
+
+.header {
+  width: auto;
+  margin: 0px auto 0px;
+  color: white;
+  background: #659DBD;
+  text-align: center;
+  border-bottom: none;
+/*  border-radius: 10px 10px 0px 0px;
+*/
+  padding: 20px;
+}
+
+.div.relative {
+ position: relative;
+ width: 400px;
+ height: 200px;
+ border: 3px solid #73AD21;
+}
+
+.Welcome {
+  font-size: 200%;
+}
+
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.input-group-top {
+  margin-top: 3%;
+/*  padding-bottom: 20px; */
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font: inherit;
+}
+
+.btn {
+  font-size: 10px;
+  color: white;
+  background: #a31414;
+  border: none;
+  border-radius: 5px;
+  width: 30px;
+  margin: auto;
+}
+
+.btn:hover {
+background: #c71818;
+border-radius: 10px;
+}
+
+.btn-home {
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+  background: #659DBD;
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  margin: 0px auto;
+}
+
+.btn-login {
+  /* padding: auto; */
+  font-size: 20px;
+  color: black;
+  background-color: transparent;
+  border: none;
+  width: auto;
+  height:auto;
+}
+
+.current {
+border-radius: 10px;
+background: #56839D;
+}
+
+div.home-events{
+  position: relative;
+  top: 5px;
+  left: 0px;
+  width: 90%;
+  margin-left: 0%;
+ height: auto;
+ border-radius: 10px;
+ background: #dcddde;
+}
+div.cs-events{
+  position: relative;
+  top: 5px;
+  left: 0px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: auto;
+ height: auto;
+ border-radius: 10px;
+ background: #dcddde;
+}
+p.cs-events{
+  position: relative;
+  text-align: center;
+  /* top: 5px;
+  left: 0px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: auto;
+ height: auto; */
+ border-radius: 10px;
+ font-size: 200%;
+ /* background: #dcddde; */
+}
+span.clear {
+  clear: left;
+  display: block;
+}
+textarea {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  text-align: left;
+  font: inherit;
+
+}
+
+/* generated for the table */
+table {
+  text-align:center;
+}
